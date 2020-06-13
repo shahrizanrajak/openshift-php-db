@@ -9,7 +9,7 @@ table, th, td {
 <body>
 <h1>Avengers<h1>
 <?php
-$servername = "172.17.0.2";
+$servername = "mariadb-1-7jp5b";
 $username = "spuser";
 $password = "1234";
 $dbname = "spdb";
