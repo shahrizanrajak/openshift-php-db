@@ -8,8 +8,6 @@ table, th, td {
 </head>
 <body>
 <h1>Avengers<h1>
-/*
 <?php
-include 'db.php';
+//include 'db.php';
 ?>
-*/
