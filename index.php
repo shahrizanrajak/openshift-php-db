@@ -9,10 +9,10 @@ table, th, td {
 <body>
 <h1>Avengers<h1>
 <?php
-$servername = "mariadb-1-7jp5b";
-$username = "spuser";
-$password = "1234";
-$dbname = "spdb";
+$servername = "MARIADB_SERVICE_HOST";
+$username = "MYSQL_USER";
+$password = "MYSQL_PASSWORD";
+$dbname = "MYSQL_DATABASE";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
