@@ -15,7 +15,7 @@ $sql = "SELECT firstname, lastname, alterego FROM avengers";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<table><tr><th>FirstName</th><th>LastName</th><th>Alter Ego</th></tr>";
+    echo "<table><tr><th>First Name</th><th>Last Name</th><th>Alter Ego</th></tr>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<tr><td>" . $row["firstname"]. "</td><td>" . $row["lastname"]. "</td><td> " . $row["alterego"]. "</td></tr>";
