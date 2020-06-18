@@ -7,7 +7,7 @@ table, th, td {
 </style>
 </head>
 <body>
-<h1>Avengers<h1>
+<h1>Justice League<h1>
 <?php
 include 'db.php';
 ?>
